@@ -6,7 +6,6 @@ const Home = () => {
         <div className="Home">
             <NavBar />
             <DataFilter />
-            <h2>Ahoj</h2>
         </div>
      );
 }
