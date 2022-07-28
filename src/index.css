@@ -4,6 +4,21 @@ body {
   box-sizing: border-box;
 }
 
+/* Resuable */
+
+.clearfix:after { 
+
+  content : ""; 
+  
+  display:  table; 
+  
+  clear:  both; 
+  
+  }  
+
+
+  /* NAVIGATION - BAR */
+
 .NavBar {
   width: 100%;
   border-bottom: 1px solid black;
@@ -19,6 +34,29 @@ body {
   display: flex;
 }
 
+.NavBar-middlePlace {
+  width: 250px;
+  height: 38px;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  padding: 8px;
+
+}
+
+.NavBar-middlePlace h3 {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Component DataFilter */
+
+.DataFilter {
+  width: 800px;
+  height: 100px;
+  border: 1px solid black;
+  margin: auto;
+}
 
 
 
