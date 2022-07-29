@@ -19,16 +19,22 @@ body {
 
   /* NAVIGATION - BAR */
 
+.NavBar-middlePlace h3 a {
+  text-decoration: none;
+  color: black;
+}
+
 .NavBar {
-  width: 100%;
-  border-bottom: 1px solid black;
+  margin: auto;
+  width: 800px;
   height: 60px;
   box-sizing: border-box;
   padding: 10px;
 }
 
 .NavBar-BarForBars {
-  width: 100%;
+  margin: auto;
+  width: 800px;
   height: 40px;
   justify-content: center;
   display: flex;
@@ -86,4 +92,25 @@ body {
 }
 
 
+/* DataList */
+.DataList {
+  margin: 20px auto;
+  width: 500px;
+  min-height: 500px;
+  border: 1px solid black;
+}
 
+
+/* FetchPublicData */
+
+.useFetchFilms a, h2 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+
+.OnlyOneNameInfo h2, h3 {
+  text-align: center;
+}

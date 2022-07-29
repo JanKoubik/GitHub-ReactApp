@@ -1,11 +1,11 @@
 import DataFilter from "./DataFilter";
-import NavBar from "./navBar";
+import DataList from "./DataList";
 
 const Home = () => {
     return ( 
         <div className="Home">
-            <NavBar />
             <DataFilter />
+            <DataList />
         </div>
      );
 }
