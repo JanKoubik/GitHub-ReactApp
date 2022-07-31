@@ -21,7 +21,7 @@ const OnlyOneItem = () => {
                     <h3><span>Ředitel - </span>{data.director}</h3>
                     <h3><span>Originální název - </span>{data.original_title_romanised}</h3>
                     <h3><span>Datum vydání - </span>{data.release_date}</h3>
-                    <h3><span>Film trvá </span>{data.running_time} minut.</h3>
+                    <h3><span>Film trvá  </span>{data.running_time} minut.</h3>
                 </div>
             )}
 
