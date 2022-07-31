@@ -5,7 +5,7 @@ const NavBar = () => {
         <div className="NavBar">
             <div className="NavBar-BarForBars">
                 <div className="NavBar-middlePlace">
-                    <h3><span><Link to={"/"}>Home</Link></span><span> BackPack</span></h3> 
+                    <h3><span><Link to={"/"}>Filter application</Link></span></h3> 
 
                 </div>
             </div>

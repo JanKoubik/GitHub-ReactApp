@@ -7,22 +7,28 @@ const useFetch = (url) => {
     let [error, setError] = useState(null) 
 
     useEffect(() => {
-        fetch(url)
-        .then((res) => {
-            if(!res.ok) {
-                throw Error("Někde se stala chyba.")
-            }
-           return res.json()
-        })
-        .then((res) => {
-            setData(res)
-            setError(null)
-            setLoadingMessage(false)
-        })
-        .catch((err) => {
-            setError(err.message)
-            setLoadingMessage(false)
-        })
+
+        setTimeout(() => {
+
+            fetch(url)
+            .then((res) => {
+                if(!res.ok) {
+                    throw Error("Někde se stala chyba.")
+                }
+               return res.json()
+            })
+            .then((res) => {
+                setData(res)
+                setError(null)
+                setLoadingMessage(false)
+            })
+            .catch((err) => {
+                setError(err.message)
+                setLoadingMessage(false)
+            })
+
+        },500)
+
     },[url])
 
 

@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: black;
 }
 
 /* Resuable */
@@ -21,7 +22,7 @@ body {
 
 .NavBar-middlePlace h3 a {
   text-decoration: none;
-  color: black;
+  color: #00ff00;
 }
 
 .NavBar {
@@ -29,7 +30,7 @@ body {
   width: 800px;
   height: 60px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .NavBar-BarForBars {
@@ -43,17 +44,19 @@ body {
 .NavBar-middlePlace {
   width: 250px;
   height: 38px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #00ff00;
   box-sizing: border-box;
   padding: 8px;
-
+  box-shadow: 1px 1px 1px 1px #00ff00;
 }
 
 .NavBar-middlePlace h3 {
   text-align: center;
   font-family: sans-serif;
   margin: 0;
+  color: blue;
 }
+
 
 /* Component DataFilter */
 
@@ -64,15 +67,17 @@ body {
   box-sizing: border-box;
   justify-content: center;
   display: flex;
+  color: blue;
 }
 
 .DataFilterColon {
   margin-top: 50px; 
   width: 330px;
   height: 50px;
-  border: 1px solid black;
+  border: 1px solid blue;
   box-sizing: border-box;
   padding: 5px 12px;
+  box-shadow: 0px 0px 5px 0px blue;
 }
 
 .DataFilterColon-V0 {
@@ -81,13 +86,25 @@ body {
   border: 1px solid transparent;
   display: inline-block;
   box-sizing: border-box;
-  padding: 6px;
+  padding: 3.5px 6px 6px 6px;
 }
 
 .DataFilterColon-V0 p {
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.DataFilterColon-V0 input {
+  width: 150px;
+  height: 20px;
+  margin-left: -27px;
+  background: black;
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 5px;
 }
 
 /* Fetch public data */
@@ -96,19 +113,106 @@ body {
   text-align: center;
   display: block;
   margin-top: 50px;
-  min-height: 900px;
+  min-height: 910px;
   width: 250px;
-  border: 1px solid black;
+  border: 1px solid blue;
   padding: 15px;
   box-sizing: border-box;
+  box-shadow: 0px 0px 5px 0px blue;
 }
 
+.FetchPublicData h2 {
+  color: red;
+  text-shadow: 1px -1px 3px red;
+  font-size: 25px;
+}
+
+.FetchPublicData p {
+  transform: skew(-3deg);
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
 
 .useFetchFilms a {
   text-decoration:  none;
   font-family:  sans-serif;
   font-size: 15px;
+  color: blue;
 }
 
 
-/* BackPack */
+/* Info */
+.Info {
+  margin: auto;
+  width: 576px;
+  height: 300px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.InfoPlace {
+  width: 320px;
+  height: 300px;
+  border-left: 1px solid blue;
+  border-bottom: 1px solid blue;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.InfoPlace a {
+  color: #00ec00;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.InfoPlace a:hover {
+  text-decoration: underline;
+}
+
+.InfoPlace h3 {
+  text-align: left;
+  color: white;
+}
+
+.InfoPlace p {
+  color: white;
+}
+
+
+
+
+/* only one item */
+.OnlyOneItem {
+  margin-top: 50px;
+  text-align: center;
+  color: blue;
+}
+
+.OnlyOneNameInfo {
+  margin: auto;
+  width: 550px;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.OnlyOneNameInfo span {
+  color: white;
+}
+
+.OnlyOneNameInfo h2 {
+  color: red;
+}
+
+/* Page 404 */
+
+.Page404 {
+  text-align: center;
+  color: blue;
+  font-family: serif;
+  font-size: 20px;
+}
+
+
+
+
