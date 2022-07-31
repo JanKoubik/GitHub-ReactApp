@@ -16,6 +16,9 @@ function App() {
           <Route exact path={"/"}>
             <Home />
           </Route>
+          <Route exact path={"/GitHub-ReactApp/"}>
+            <Home />
+          </Route>
           <Route exact path={"/data/:id"}>
             <OnlyOneItem />
           </Route>
