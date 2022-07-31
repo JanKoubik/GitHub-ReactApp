@@ -60,7 +60,6 @@ body {
 .DataFilter {
   width: 800px;
   height: 120px;
-  border-bottom: 1px solid black;
   margin: auto;
   box-sizing: border-box;
   justify-content: center;
@@ -91,26 +90,25 @@ body {
   font-weight: 800;
 }
 
+/* Fetch public data */
 
-/* DataList */
-.DataList {
-  margin: 20px auto;
-  width: 500px;
-  min-height: 500px;
+.FetchPublicData {
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  min-height: 900px;
+  width: 250px;
   border: 1px solid black;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 
-/* FetchPublicData */
-
-.useFetchFilms a, h2 {
-  text-decoration: none;
-  text-align: center;
-  font-size: 17px;
-  font-family: sans-serif;
+.useFetchFilms a {
+  text-decoration:  none;
+  font-family:  sans-serif;
+  font-size: 15px;
 }
 
 
-.OnlyOneNameInfo h2, h3 {
-  text-align: center;
-}
+/* BackPack */
