@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/GitHub-ReactApp/static/css/main.35777067.css",
-    "main.js": "/GitHub-ReactApp/static/js/main.b2464d1a.js",
+    "main.css": "/GitHub-ReactApp/static/css/main.ccb934f8.css",
+    "main.js": "/GitHub-ReactApp/static/js/main.aeec47fb.js",
+    "static/media/logo-ghibli.png": "/GitHub-ReactApp/static/media/logo-ghibli.e751f3138f199161fe28.png",
     "index.html": "/GitHub-ReactApp/index.html",
-    "main.35777067.css.map": "/GitHub-ReactApp/static/css/main.35777067.css.map",
-    "main.b2464d1a.js.map": "/GitHub-ReactApp/static/js/main.b2464d1a.js.map"
+    "main.ccb934f8.css.map": "/GitHub-ReactApp/static/css/main.ccb934f8.css.map",
+    "main.aeec47fb.js.map": "/GitHub-ReactApp/static/js/main.aeec47fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.35777067.css",
-    "static/js/main.b2464d1a.js"
+    "static/css/main.ccb934f8.css",
+    "static/js/main.aeec47fb.js"
   ]
 }
