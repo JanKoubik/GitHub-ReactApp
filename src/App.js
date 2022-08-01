@@ -13,10 +13,10 @@ function App() {
           <NavBar />
 
         <Switch>
-          <Route exact path={"/"}>
+          <Route exact path={"/GitHub-ReactApp"}>
             <Home />
           </Route>
-          <Route exact path={"/GitHub-ReactApp/"}>
+          <Route exact path={"/"}>
             <Home />
           </Route>
           <Route exact path={"/data/:id"}>
