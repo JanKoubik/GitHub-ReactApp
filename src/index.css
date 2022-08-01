@@ -161,14 +161,14 @@ body {
 /* Info */
 .Info {
   margin: auto;
-  max-width: 576px;
+  max-width: 564px;
   height: 300px;
   border: 1px solid transparent;
   box-sizing: border-box;
 }
 
 .InfoPlace {
-  max-width: 316px;
+  max-width: 310px;
   height: 300px;
   border-left: 1px solid blue;
   border-bottom: 1px solid blue;
