@@ -16,10 +16,8 @@ const DataFilter = () => {
         <div className="DataFilter">
             <div className="DataFilterColon">
                 <div className="DataFilterColon-V0">
-                    <p>Filter</p>
-                </div>
-                <div className="DataFilterColon-V0"> 
-                        <input type="text" placeholder="Search..." onChange={event => setFilterResult(event.target.value)}></input>
+                <p>Filter</p> 
+                <input type="text" placeholder="Search..." onChange={event => setFilterResult(event.target.value)}></input>
                 </div>
             </div>
 
