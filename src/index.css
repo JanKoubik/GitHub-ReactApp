@@ -44,10 +44,13 @@ body {
 .NavBar-middlePlace {
   width: 250px;
   height: 38px;
-  border-bottom: 1px solid #00ff00;
+  border-top: 0.4px solid #00ff00;
+  border-left: 1px solid #00ff00;
+  border-right: 1px solid #00ff00;
+  border-bottom: 0.4px solid #00ff00;
   box-sizing: border-box;
   padding: 8px;
-  box-shadow: 1px 1px 1px 1px #00ff00;
+  background: linear-gradient(45deg,#00ff00,black,black, #00ff00);
 }
 
 .NavBar-middlePlace h3 {
