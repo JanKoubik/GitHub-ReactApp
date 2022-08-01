@@ -1,0 +1,38 @@
+@media only screen and (max-width: 850px) { 
+
+    .DataFilter {
+        display: block;
+        margin: 50px auto;
+        max-width: 330px;
+    }
+
+    .DataFilterColon {
+        margin: 0 auto;
+        max-width: 330px;
+    }
+
+    .FetchPublicData {
+        margin: 0 auto;
+    }
+
+
+    .Info {
+        margin: 900px auto;
+        width: 322px;
+    }
+
+    .InfoPlace {
+        border: 1px solid blue;
+        margin: auto;
+    }
+
+    .NavBar {
+        margin:  0 auto;
+        width: 300px;
+    }
+
+    .NavBar-BarForBars {
+        width: 300px;
+    }
+
+} 
