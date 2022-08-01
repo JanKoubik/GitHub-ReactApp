@@ -219,7 +219,7 @@ body {
 
 .OnlyOneNameInfo {
   margin: auto;
-  width: 550px;
+  max-width: 550px;
   border-left: 1px solid blue;
   border-right: 1px solid blue;
   background: linear-gradient(-45deg,blue, black , black, blue);

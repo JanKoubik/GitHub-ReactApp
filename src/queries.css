@@ -1,5 +1,9 @@
 @media only screen and (max-width: 850px) { 
 
+    /* Home.js */
+    /* Home.js */
+    /* Home.js */
+
     .DataFilter {
         display: block;
         margin: 50px auto;
@@ -28,11 +32,18 @@
 
     .NavBar {
         margin:  0 auto;
-        width: 300px;
+        width: 250px;
     }
 
     .NavBar-BarForBars {
-        width: 300px;
+        width: 250px;
     }
+
+
+    /* OnlyOneItem */
+    /* OnlyOneItem */
+    /* OnlyOneItem */
+
+
 
 } 
