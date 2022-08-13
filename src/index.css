@@ -217,11 +217,16 @@ body {
 
 .InfoPlaceFavouriteFilms {
   width: 280px;
-  height: 0px;
+  height: 21px;
   text-align: center;
 }
 .InfoPlaceFavouriteFilms p {
   color: white;
+  margin: 0;
+  display: inline-block;
+}
+.InfoPlaceFavouriteFilms button {
+  float: right;
 }
 .InfoPlaceFavouriteFilmsA {
   text-decoration: none;
