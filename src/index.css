@@ -217,7 +217,7 @@ body {
 
 .InfoPlaceFavouriteFilms {
   width: 280px;
-  height: 200px;
+  height: 0px;
   text-align: center;
 }
 .InfoPlaceFavouriteFilms p {

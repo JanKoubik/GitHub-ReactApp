@@ -16,7 +16,7 @@ const Info = () => {
                 {data && data.map((datab) => (
                     <div className="InfoPlaceFavouriteFilms" key={datab.id}>
                         <Link className="InfoPlaceFavouriteFilmsA" to={`/data/${datab.id}`}>
-                            <p>{datab.name}</p>
+                            <p>{datab.title}</p>
                         </Link> 
                     </div>
                 ))}
