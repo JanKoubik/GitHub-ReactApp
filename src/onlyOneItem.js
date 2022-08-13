@@ -1,3 +1,4 @@
+
 import { useParams } from "react-router-dom";
 import useFetch from "./CustomHook";
 
@@ -7,6 +8,13 @@ const OnlyOneItem = () => {
     let {data, error, loadingMessage} = useFetch("https://ghibliapi.herokuapp.com/films/" + id)
 
     
+
+    const addHandleFavouriteClick = () => {
+
+        let nameFilmButton = data.title
+
+        console.log(nameFilmButton)
+    }
 
 
     return ( 
@@ -22,6 +30,7 @@ const OnlyOneItem = () => {
                     <h3><span>Originální název - </span>{data.original_title_romanised}</h3>
                     <h3><span>Datum vydání - </span>{data.release_date}</h3>
                     <h3><span>Film trvá  </span>{data.running_time} minut.</h3>
+                    <button onClick={addHandleFavouriteClick}>Přidat film do oblíbených</button>           
                 </div>
             )}
 

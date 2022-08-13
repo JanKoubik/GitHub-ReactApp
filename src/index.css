@@ -168,6 +168,7 @@ body {
 }
 
 .InfoPlace {
+  color: white;
   margin-top: -22px;
   max-width: 310px;
   height: 300px;
@@ -181,21 +182,22 @@ body {
 }
 
 .InfoPlace img {
-  max-width: 100%;
-  min-height: 100%;
+  margin-top: 60px;
+  width: 270px;
+  height: 170px;
 }
 
-.InfoPlace a {
+.InfoPlaceA {
   transform: rotate(3deg);
   color: white;
   text-decoration: none;
   font-size: 21px;
   position: absolute;
-  top: 75px;
+  top: 99px;
   left: 164px;
 }
 
-.InfoPlace a:hover {
+.InfoPlaceA:hover {
   text-decoration: underline;
 }
 
@@ -211,6 +213,19 @@ body {
   font-family: sans-serif;
 }
 
+/* InfoPlace FavouriteItems */
+
+.InfoPlaceFavouriteFilms {
+  width: 280px;
+  height: 200px;
+  text-align: center;
+}
+.InfoPlaceFavouriteFilms p {
+  color: white;
+}
+.InfoPlaceFavouriteFilmsA {
+  text-decoration: none;
+}
 
 
 
