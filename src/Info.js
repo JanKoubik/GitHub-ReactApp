@@ -1,16 +1,17 @@
 import useFetch from "./CustomHook";
 import img1 from "./images/logo-ghibli.png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Info = () => {
 
 
     let {data, error, loadingMessage} = useFetch("http://localhost:8000/films")
 
+    let [filmData, setFilmData] = useState(data)
 
-
-
-
+    console.log(filmData)
+    
     return ( 
         <div className="Info">
             <div className="InfoPlace">
@@ -20,9 +21,9 @@ const Info = () => {
                 {data && data.map((datab) => (
                     <div className="InfoPlaceFavouriteFilms" key={datab.id}>
                         <Link className="InfoPlaceFavouriteFilmsA" to={`/data/${datab.id}`}>
-                            <p>{datab.title}</p> 
+                            <p>{datab.title}</p>
                         </Link> 
-                        <button>Delete</button>
+                        <button onClick={() => {}}>Delete</button>
                     </div>
                 ))}
             </div>
